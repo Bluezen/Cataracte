@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>subCategories</key>
+	<array>
+		<string>Highres Movies</string>
+		<string>Hentai</string>
+		<string>HD Video</string>
+		<string>Handheld</string>
+		<string>Games</string>
+		<string>Fiction</string>
+		<string>English-translated</string>
+		<string>Ebooks</string>
+		<string>Dubbed Movies</string>
+		<string>Documentary</string>
+		<string>Concerts</string>
+		<string>Comics</string>
+		<string>Books</string>
+	</array>
+	<key>categories</key>
+	<array>
+		<string>All</string>
+		<string>Anime</string>
+		<string>Applications</string>
+		<string>Books</string>
+		<string>Games</string>
+		<string>Movies</string>
+		<string>Music</string>
+		<string>Other</string>
+		<string>TV</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.5.2):
+    - AFNetworking/NSURLConnection (= 2.5.2)
+    - AFNetworking/NSURLSession (= 2.5.2)
+    - AFNetworking/Reachability (= 2.5.2)
+    - AFNetworking/Security (= 2.5.2)
+    - AFNetworking/Serialization (= 2.5.2)
+    - AFNetworking/UIKit (= 2.5.2)
+  - AFNetworking/NSURLConnection (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.2)
+  - AFNetworking/Security (2.5.2)
+  - AFNetworking/Serialization (2.5.2)
+  - AFNetworking/UIKit (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.1.4)
+  - EasyMapping (0.12.3):
+    - EasyMapping/Core (= 0.12.3)
+  - EasyMapping/Core (0.12.3)
+  - FCModel (0.9.0):
+    - FMDB (~> 2.1)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - MBProgressHUD (0.9.1)
+  - TransformerKit (0.5.4):
+    - TransformerKit/Core (= 0.5.4)
+    - TransformerKit/Cryptography (= 0.5.4)
+    - TransformerKit/Data (= 0.5.4)
+    - TransformerKit/Date (= 0.5.4)
+    - TransformerKit/Image (= 0.5.4)
+    - TransformerKit/JSON (= 0.5.4)
+    - TransformerKit/String (= 0.5.4)
+  - TransformerKit/Core (0.5.4)
+  - TransformerKit/Cryptography (0.5.4):
+    - TransformerKit/Core
+  - TransformerKit/Data (0.5.4):
+    - TransformerKit/Core
+  - TransformerKit/Date (0.5.4):
+    - TransformerKit/Core
+  - TransformerKit/Image (0.5.4):
+    - TransformerKit/Core
+  - TransformerKit/JSON (0.5.4):
+    - TransformerKit/Core
+  - TransformerKit/String (0.5.4):
+    - TransformerKit/Core
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger
+  - AFNetworking (~> 2.0)
+  - Bolts
+  - EasyMapping (~> 0.12.0)
+  - FCModel (from `https://github.com/lickel/FCModel.git`, branch `non-unique-value-transformers`)
+  - MBProgressHUD (~> 0.9.1)
+  - TransformerKit
+
+EXTERNAL SOURCES:
+  FCModel:
+    :branch: non-unique-value-transformers
+    :git: https://github.com/lickel/FCModel.git
+
+CHECKOUT OPTIONS:
+  FCModel:
+    :commit: cc7ad7a89b2e39418c66b2505c55aeb2442b8fec
+    :git: https://github.com/lickel/FCModel.git
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  Bolts: f8e2f94edbf9fec7bb8de5ecaaa3aa6b7de6f64e
+  EasyMapping: 538def2b8f3f9fdb1b4488b66cf3b7c3cfcecc45
+  FCModel: 04bb289914e67f2275cb17fda869131a3529c1a5
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  TransformerKit: 0a235de1030a23d47c86706c0316b4a0c7105d73
+
+COCOAPODS: 0.36.3

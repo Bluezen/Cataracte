@@ -7,14 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0529A3F31AE662BC005AC31E /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529A3F21AE662BC005AC31E /* NSString+Utilities.m */; };
+		0529A3FA1AE6E271005AC31E /* QBitMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529A3F91AE6E271005AC31E /* QBitMenuViewController.m */; };
+		0529A3FE1AE72695005AC31E /* CellWithSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529A3FD1AE72695005AC31E /* CellWithSwitch.m */; };
+		0529A4011AE72740005AC31E /* CellWithColorscheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529A4001AE72740005AC31E /* CellWithColorscheme.m */; };
+		0529A4041AE728DE005AC31E /* StaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529A4031AE728DE005AC31E /* StaticTableViewController.m */; };
+		05341D5A1ADC39C80042842A /* QBittorrentAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05341D591ADC39C80042842A /* QBittorrentAPIManager.m */; };
+		05341D5C1ADD46640042842A /* QbittorentAPIManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05341D5B1ADD46640042842A /* QbittorentAPIManagerTests.m */; };
+		05341D5F1ADDEA4B0042842A /* QBitTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 05341D5E1ADDEA4B0042842A /* QBitTorrent.m */; };
+		057D06CE1AE852EA0021E8B4 /* QBitSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057D06CD1AE852EA0021E8B4 /* QBitSettingsViewController.m */; };
+		057D06D11AE868E20021E8B4 /* CellWithTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 057D06D01AE868E20021E8B4 /* CellWithTextInput.m */; };
 		05A1E11B1AD335A9002349AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E11A1AD335A9002349AF /* main.m */; };
 		05A1E11E1AD335A9002349AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E11D1AD335A9002349AF /* AppDelegate.m */; };
-		05A1E1211AD335A9002349AF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1201AD335A9002349AF /* MasterViewController.m */; };
-		05A1E1241AD335A9002349AF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1231AD335A9002349AF /* DetailViewController.m */; };
-		05A1E1271AD335A9002349AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A1E1251AD335A9002349AF /* Main.storyboard */; };
 		05A1E1291AD335A9002349AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A1E1281AD335A9002349AF /* Images.xcassets */; };
 		05A1E12C1AD335A9002349AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A1E12A1AD335A9002349AF /* LaunchScreen.xib */; };
 		05A1E1381AD335A9002349AF /* CataracteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1371AD335A9002349AF /* CataracteTests.m */; };
+		05A1E1481AD3E41A002349AF /* StrikeAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1471AD3E41A002349AF /* StrikeAPIManager.m */; };
+		05A1E14A1AD4319F002349AF /* StrikeAPIManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1491AD4319F002349AF /* StrikeAPIManagerTests.m */; };
+		05A1E14E1AD43E8F002349AF /* StrikeTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E14D1AD43E8F002349AF /* StrikeTorrent.m */; };
+		05A1E1511AD449F3002349AF /* NSDateFormatter+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1501AD449F3002349AF /* NSDateFormatter+Utilities.m */; };
+		05A1E1551AD5233C002349AF /* StrikeTopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1541AD5233C002349AF /* StrikeTopsViewController.m */; };
+		05A1E1591AD5235B002349AF /* StrikeSearchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1581AD5235B002349AF /* StrikeSearchesViewController.m */; };
+		05A1E15D1AD5236E002349AF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E15C1AD5236E002349AF /* SettingsViewController.m */; };
+		05A1E1611AD5247B002349AF /* UserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1601AD5247B002349AF /* UserInfoManager.m */; };
+		05A1E1651AD5259F002349AF /* AppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1641AD5259F002349AF /* AppearanceManager.m */; };
+		05A1E1681AD52666002349AF /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1671AD52666002349AF /* UIColor+Utilities.m */; };
+		05A1E16C1AD52D47002349AF /* StrikeTorrentsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E16B1AD52D47002349AF /* StrikeTorrentsListViewController.m */; };
+		05A1E16F1AD57304002349AF /* UIViewController+CATViewControllerShowing.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E16E1AD57304002349AF /* UIViewController+CATViewControllerShowing.m */; };
+		05A1E1721AD57851002349AF /* UITableViewCell+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1711AD57851002349AF /* UITableViewCell+Utilities.m */; };
+		05A1E1761AD578BE002349AF /* StrikeTorrentsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1751AD578BE002349AF /* StrikeTorrentsListCell.m */; };
+		05A1E1781AD5D613002349AF /* Strike.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05A1E1771AD5D613002349AF /* Strike.plist */; };
+		05A1E17C1AD67536002349AF /* StrikeBookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E17B1AD67536002349AF /* StrikeBookmarksViewController.m */; };
+		05A1E17F1AD67ADD002349AF /* StrikeAddSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E17E1AD67ADD002349AF /* StrikeAddSearchViewController.m */; };
+		05A1E1821AD67E2C002349AF /* UIView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1811AD67E2C002349AF /* UIView+Utilities.m */; };
+		05A1E1851AD68A09002349AF /* UIViewController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1841AD68A09002349AF /* UIViewController+Utilities.m */; };
+		05A1E1881AD68AE5002349AF /* UINavigationController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1871AD68AE5002349AF /* UINavigationController+Utilities.m */; };
+		05A1E18C1AD6A302002349AF /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E18B1AD6A302002349AF /* DatabaseManager.m */; };
+		05A1E18F1AD6A6EA002349AF /* CATSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E18E1AD6A6EA002349AF /* CATSearch.m */; };
+		05A1E1931AD6B978002349AF /* StrikeSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1921AD6B978002349AF /* StrikeSearchCell.m */; };
+		05A1E1961AD6BD67002349AF /* UIAlertController+Cataracte.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1951AD6BD67002349AF /* UIAlertController+Cataracte.m */; };
+		05A1E19A1AD6DF0B002349AF /* StrikeBookmarksCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E1991AD6DF0B002349AF /* StrikeBookmarksCell.m */; };
+		05A1E19D1AD6E666002349AF /* StrikeTorrentDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A1E19C1AD6E666002349AF /* StrikeTorrentDetailsViewController.m */; };
+		05F300E71AE05713004698FA /* QBitGlobalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F300E61AE05713004698FA /* QBitGlobalInfo.m */; };
+		05FEE9501AEAE0FE002FB174 /* QBitTorrentsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FEE94F1AEAE0FE002FB174 /* QBitTorrentsListViewController.m */; };
+		05FEE9541AEAE24A002FB174 /* QBitTorrentsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FEE9531AEAE24A002FB174 /* QBitTorrentsListCell.m */; };
+		05FEE9591AEC3CD0002FB174 /* AppDelegate+Cataracte.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FEE9581AEC3CD0002FB174 /* AppDelegate+Cataracte.m */; };
+		05FEE95C1AECF47B002FB174 /* CellWithRightAlignedSubtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FEE95B1AECF47B002FB174 /* CellWithRightAlignedSubtitle.m */; };
+		05FEE95F1AEEAB8D002FB174 /* MBProgressHUD+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FEE95E1AEEAB8D002FB174 /* MBProgressHUD+Utilities.m */; };
+		B5625A9F4331093DD1525A92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87210C127DBFBF56B3FEF6 /* libPods.a */; };
+		FCEDCB5853C88E8ED692DDEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87210C127DBFBF56B3FEF6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +69,100 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0529A3F11AE662BC005AC31E /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utilities.h"; sourceTree = "<group>"; };
+		0529A3F21AE662BC005AC31E /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utilities.m"; sourceTree = "<group>"; };
+		0529A3F81AE6E271005AC31E /* QBitMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBitMenuViewController.h; sourceTree = "<group>"; };
+		0529A3F91AE6E271005AC31E /* QBitMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBitMenuViewController.m; sourceTree = "<group>"; };
+		0529A3FC1AE72695005AC31E /* CellWithSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithSwitch.h; sourceTree = "<group>"; };
+		0529A3FD1AE72695005AC31E /* CellWithSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithSwitch.m; sourceTree = "<group>"; };
+		0529A3FF1AE72740005AC31E /* CellWithColorscheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithColorscheme.h; sourceTree = "<group>"; };
+		0529A4001AE72740005AC31E /* CellWithColorscheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithColorscheme.m; sourceTree = "<group>"; };
+		0529A4021AE728DE005AC31E /* StaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticTableViewController.h; sourceTree = "<group>"; };
+		0529A4031AE728DE005AC31E /* StaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticTableViewController.m; sourceTree = "<group>"; };
+		05341D581ADC39C80042842A /* QBittorrentAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBittorrentAPIManager.h; sourceTree = "<group>"; };
+		05341D591ADC39C80042842A /* QBittorrentAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBittorrentAPIManager.m; sourceTree = "<group>"; };
+		05341D5B1ADD46640042842A /* QbittorentAPIManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QbittorentAPIManagerTests.m; sourceTree = "<group>"; };
+		05341D5D1ADDEA4B0042842A /* QBitTorrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBitTorrent.h; sourceTree = "<group>"; };
+		05341D5E1ADDEA4B0042842A /* QBitTorrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBitTorrent.m; sourceTree = "<group>"; };
+		057D06CC1AE852EA0021E8B4 /* QBitSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBitSettingsViewController.h; sourceTree = "<group>"; };
+		057D06CD1AE852EA0021E8B4 /* QBitSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBitSettingsViewController.m; sourceTree = "<group>"; };
+		057D06CF1AE868E20021E8B4 /* CellWithTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithTextInput.h; sourceTree = "<group>"; };
+		057D06D01AE868E20021E8B4 /* CellWithTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithTextInput.m; sourceTree = "<group>"; };
 		05A1E1151AD335A9002349AF /* Cataracte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cataracte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A1E1191AD335A9002349AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A1E11A1AD335A9002349AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05A1E11C1AD335A9002349AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05A1E11D1AD335A9002349AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05A1E11F1AD335A9002349AF /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		05A1E1201AD335A9002349AF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		05A1E1221AD335A9002349AF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		05A1E1231AD335A9002349AF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		05A1E1261AD335A9002349AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05A1E1281AD335A9002349AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05A1E12B1AD335A9002349AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		05A1E1311AD335A9002349AF /* CataracteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CataracteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A1E1361AD335A9002349AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A1E1371AD335A9002349AF /* CataracteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CataracteTests.m; sourceTree = "<group>"; };
+		05A1E1461AD3E41A002349AF /* StrikeAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeAPIManager.h; sourceTree = "<group>"; };
+		05A1E1471AD3E41A002349AF /* StrikeAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeAPIManager.m; sourceTree = "<group>"; };
+		05A1E1491AD4319F002349AF /* StrikeAPIManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeAPIManagerTests.m; sourceTree = "<group>"; };
+		05A1E14C1AD43E8F002349AF /* StrikeTorrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeTorrent.h; sourceTree = "<group>"; };
+		05A1E14D1AD43E8F002349AF /* StrikeTorrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeTorrent.m; sourceTree = "<group>"; };
+		05A1E14F1AD449F3002349AF /* NSDateFormatter+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Utilities.h"; sourceTree = "<group>"; };
+		05A1E1501AD449F3002349AF /* NSDateFormatter+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Utilities.m"; sourceTree = "<group>"; };
+		05A1E1531AD5233C002349AF /* StrikeTopsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeTopsViewController.h; sourceTree = "<group>"; };
+		05A1E1541AD5233C002349AF /* StrikeTopsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeTopsViewController.m; sourceTree = "<group>"; };
+		05A1E1571AD5235B002349AF /* StrikeSearchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeSearchesViewController.h; sourceTree = "<group>"; };
+		05A1E1581AD5235B002349AF /* StrikeSearchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeSearchesViewController.m; sourceTree = "<group>"; };
+		05A1E15B1AD5236E002349AF /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		05A1E15C1AD5236E002349AF /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		05A1E15F1AD5247B002349AF /* UserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoManager.h; sourceTree = "<group>"; };
+		05A1E1601AD5247B002349AF /* UserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManager.m; sourceTree = "<group>"; };
+		05A1E1631AD5259F002349AF /* AppearanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceManager.h; sourceTree = "<group>"; };
+		05A1E1641AD5259F002349AF /* AppearanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceManager.m; sourceTree = "<group>"; };
+		05A1E1661AD52666002349AF /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
+		05A1E1671AD52666002349AF /* UIColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utilities.m"; sourceTree = "<group>"; };
+		05A1E16A1AD52D47002349AF /* StrikeTorrentsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeTorrentsListViewController.h; sourceTree = "<group>"; };
+		05A1E16B1AD52D47002349AF /* StrikeTorrentsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeTorrentsListViewController.m; sourceTree = "<group>"; };
+		05A1E16D1AD57304002349AF /* UIViewController+CATViewControllerShowing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CATViewControllerShowing.h"; sourceTree = "<group>"; };
+		05A1E16E1AD57304002349AF /* UIViewController+CATViewControllerShowing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CATViewControllerShowing.m"; sourceTree = "<group>"; };
+		05A1E1701AD57851002349AF /* UITableViewCell+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Utilities.h"; sourceTree = "<group>"; };
+		05A1E1711AD57851002349AF /* UITableViewCell+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Utilities.m"; sourceTree = "<group>"; };
+		05A1E1741AD578BE002349AF /* StrikeTorrentsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeTorrentsListCell.h; sourceTree = "<group>"; };
+		05A1E1751AD578BE002349AF /* StrikeTorrentsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeTorrentsListCell.m; sourceTree = "<group>"; };
+		05A1E1771AD5D613002349AF /* Strike.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Strike.plist; sourceTree = "<group>"; };
+		05A1E17A1AD67536002349AF /* StrikeBookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeBookmarksViewController.h; sourceTree = "<group>"; };
+		05A1E17B1AD67536002349AF /* StrikeBookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeBookmarksViewController.m; sourceTree = "<group>"; };
+		05A1E17D1AD67ADD002349AF /* StrikeAddSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeAddSearchViewController.h; sourceTree = "<group>"; };
+		05A1E17E1AD67ADD002349AF /* StrikeAddSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeAddSearchViewController.m; sourceTree = "<group>"; };
+		05A1E1801AD67E2C002349AF /* UIView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utilities.h"; sourceTree = "<group>"; };
+		05A1E1811AD67E2C002349AF /* UIView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utilities.m"; sourceTree = "<group>"; };
+		05A1E1831AD68A08002349AF /* UIViewController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utilities.h"; sourceTree = "<group>"; };
+		05A1E1841AD68A09002349AF /* UIViewController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utilities.m"; sourceTree = "<group>"; };
+		05A1E1861AD68AE5002349AF /* UINavigationController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Utilities.h"; sourceTree = "<group>"; };
+		05A1E1871AD68AE5002349AF /* UINavigationController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Utilities.m"; sourceTree = "<group>"; };
+		05A1E18A1AD6A302002349AF /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		05A1E18B1AD6A302002349AF /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		05A1E18D1AD6A6EA002349AF /* CATSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATSearch.h; sourceTree = "<group>"; };
+		05A1E18E1AD6A6EA002349AF /* CATSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATSearch.m; sourceTree = "<group>"; };
+		05A1E1911AD6B978002349AF /* StrikeSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeSearchCell.h; sourceTree = "<group>"; };
+		05A1E1921AD6B978002349AF /* StrikeSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeSearchCell.m; sourceTree = "<group>"; };
+		05A1E1941AD6BD67002349AF /* UIAlertController+Cataracte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Cataracte.h"; sourceTree = "<group>"; };
+		05A1E1951AD6BD67002349AF /* UIAlertController+Cataracte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Cataracte.m"; sourceTree = "<group>"; };
+		05A1E1981AD6DF0B002349AF /* StrikeBookmarksCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeBookmarksCell.h; sourceTree = "<group>"; };
+		05A1E1991AD6DF0B002349AF /* StrikeBookmarksCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeBookmarksCell.m; sourceTree = "<group>"; };
+		05A1E19B1AD6E666002349AF /* StrikeTorrentDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeTorrentDetailsViewController.h; sourceTree = "<group>"; };
+		05A1E19C1AD6E666002349AF /* StrikeTorrentDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeTorrentDetailsViewController.m; sourceTree = "<group>"; };
+		05F300E51AE05713004698FA /* QBitGlobalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBitGlobalInfo.h; sourceTree = "<group>"; };
+		05F300E61AE05713004698FA /* QBitGlobalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBitGlobalInfo.m; sourceTree = "<group>"; };
+		05FEE94E1AEAE0FE002FB174 /* QBitTorrentsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBitTorrentsListViewController.h; sourceTree = "<group>"; };
+		05FEE94F1AEAE0FE002FB174 /* QBitTorrentsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBitTorrentsListViewController.m; sourceTree = "<group>"; };
+		05FEE9521AEAE24A002FB174 /* QBitTorrentsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBitTorrentsListCell.h; sourceTree = "<group>"; };
+		05FEE9531AEAE24A002FB174 /* QBitTorrentsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBitTorrentsListCell.m; sourceTree = "<group>"; };
+		05FEE9571AEC3CD0002FB174 /* AppDelegate+Cataracte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Cataracte.h"; sourceTree = "<group>"; };
+		05FEE9581AEC3CD0002FB174 /* AppDelegate+Cataracte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Cataracte.m"; sourceTree = "<group>"; };
+		05FEE95A1AECF47B002FB174 /* CellWithRightAlignedSubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithRightAlignedSubtitle.h; sourceTree = "<group>"; };
+		05FEE95B1AECF47B002FB174 /* CellWithRightAlignedSubtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithRightAlignedSubtitle.m; sourceTree = "<group>"; };
+		05FEE95D1AEEAB8D002FB174 /* MBProgressHUD+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Utilities.h"; sourceTree = "<group>"; };
+		05FEE95E1AEEAB8D002FB174 /* MBProgressHUD+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Utilities.m"; sourceTree = "<group>"; };
+		1E87210C127DBFBF56B3FEF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7044EFF4D01588C1378FF67D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DC7EBB8518B9AA573F92B1B7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEDCB5853C88E8ED692DDEC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +178,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5625A9F4331093DD1525A92 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0529A3F41AE6981C005AC31E /* TorrentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E19B1AD6E666002349AF /* StrikeTorrentDetailsViewController.h */,
+				05A1E19C1AD6E666002349AF /* StrikeTorrentDetailsViewController.m */,
+			);
+			name = TorrentDetails;
+			sourceTree = "<group>";
+		};
+		0529A3F51AE69B03005AC31E /* Strike */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1791AD674BA002349AF /* Bookmarks */,
+				05A1E1521AD522D8002349AF /* Tops */,
+				05A1E1561AD52348002349AF /* Search */,
+				05A1E1691AD52D2A002349AF /* TorrentsList */,
+				0529A3F41AE6981C005AC31E /* TorrentDetails */,
+			);
+			name = Strike;
+			sourceTree = "<group>";
+		};
+		0529A3F61AE6E100005AC31E /* QBittorrent */ = {
+			isa = PBXGroup;
+			children = (
+				05FEE9551AEAF9F3002FB174 /* TorrentDetails */,
+				05FEE94D1AEAE053002FB174 /* TorrentsList */,
+				057D06CB1AE852B20021E8B4 /* Settings */,
+				0529A3F71AE6E227005AC31E /* Menu */,
+			);
+			name = QBittorrent;
+			sourceTree = "<group>";
+		};
+		0529A3F71AE6E227005AC31E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0529A3F81AE6E271005AC31E /* QBitMenuViewController.h */,
+				0529A3F91AE6E271005AC31E /* QBitMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		0529A3FB1AE7266C005AC31E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0529A3FC1AE72695005AC31E /* CellWithSwitch.h */,
+				0529A3FD1AE72695005AC31E /* CellWithSwitch.m */,
+				0529A3FF1AE72740005AC31E /* CellWithColorscheme.h */,
+				0529A4001AE72740005AC31E /* CellWithColorscheme.m */,
+				057D06CF1AE868E20021E8B4 /* CellWithTextInput.h */,
+				057D06D01AE868E20021E8B4 /* CellWithTextInput.m */,
+				05FEE95A1AECF47B002FB174 /* CellWithRightAlignedSubtitle.h */,
+				05FEE95B1AECF47B002FB174 /* CellWithRightAlignedSubtitle.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		05341D571ADC398B0042842A /* QBittorrentAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				05341D581ADC39C80042842A /* QBittorrentAPIManager.h */,
+				05341D591ADC39C80042842A /* QBittorrentAPIManager.m */,
+			);
+			name = QBittorrentAPIManager;
+			sourceTree = "<group>";
+		};
+		057D06CB1AE852B20021E8B4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				057D06CC1AE852EA0021E8B4 /* QBitSettingsViewController.h */,
+				057D06CD1AE852EA0021E8B4 /* QBitSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		05A1E10C1AD335A9002349AF = {
 			isa = PBXGroup;
 			children = (
 				05A1E1171AD335A9002349AF /* Cataracte */,
 				05A1E1341AD335A9002349AF /* CataracteTests */,
 				05A1E1161AD335A9002349AF /* Products */,
+				8458C33B9BDB95232F6912ED /* Pods */,
+				1A669D093ED47E536A0324DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,14 +284,13 @@
 			children = (
 				05A1E11C1AD335A9002349AF /* AppDelegate.h */,
 				05A1E11D1AD335A9002349AF /* AppDelegate.m */,
-				05A1E11F1AD335A9002349AF /* MasterViewController.h */,
-				05A1E1201AD335A9002349AF /* MasterViewController.m */,
-				05A1E1221AD335A9002349AF /* DetailViewController.h */,
-				05A1E1231AD335A9002349AF /* DetailViewController.m */,
-				05A1E1251AD335A9002349AF /* Main.storyboard */,
 				05A1E1281AD335A9002349AF /* Images.xcassets */,
 				05A1E12A1AD335A9002349AF /* LaunchScreen.xib */,
+				05A1E1421AD3E198002349AF /* Classes */,
+				05A1E1411AD3E175002349AF /* Controllers */,
 				05A1E1181AD335A9002349AF /* Supporting Files */,
+				05A1E1431AD3E1A7002349AF /* Utilities */,
+				05A1E1441AD3E1E4002349AF /* Views */,
 			);
 			path = Cataracte;
 			sourceTree = "<group>";
@@ -103,6 +300,7 @@
 			children = (
 				05A1E1191AD335A9002349AF /* Info.plist */,
 				05A1E11A1AD335A9002349AF /* main.m */,
+				05A1E1771AD5D613002349AF /* Strike.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +310,8 @@
 			children = (
 				05A1E1371AD335A9002349AF /* CataracteTests.m */,
 				05A1E1351AD335A9002349AF /* Supporting Files */,
+				05A1E1491AD4319F002349AF /* StrikeAPIManagerTests.m */,
+				05341D5B1ADD46640042842A /* QbittorentAPIManagerTests.m */,
 			);
 			path = CataracteTests;
 			sourceTree = "<group>";
@@ -124,6 +324,247 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		05A1E1411AD3E175002349AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05FEE9561AEBAAFA002FB174 /* StaticTable */,
+				0529A3F61AE6E100005AC31E /* QBittorrent */,
+				0529A3F51AE69B03005AC31E /* Strike */,
+				05A1E15A1AD52360002349AF /* Settings */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		05A1E1421AD3E198002349AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05341D571ADC398B0042842A /* QBittorrentAPIManager */,
+				05A1E1891AD6A2E4002349AF /* DatabaseManager */,
+				05A1E1621AD52588002349AF /* AppearanceManager */,
+				05A1E15E1AD52454002349AF /* UserInfoManager */,
+				05A1E14B1AD43DAA002349AF /* Data Models */,
+				05A1E1451AD3E380002349AF /* StrikeAPIManager */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		05A1E1431AD3E1A7002349AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E16D1AD57304002349AF /* UIViewController+CATViewControllerShowing.h */,
+				05A1E16E1AD57304002349AF /* UIViewController+CATViewControllerShowing.m */,
+				05A1E14F1AD449F3002349AF /* NSDateFormatter+Utilities.h */,
+				05A1E1501AD449F3002349AF /* NSDateFormatter+Utilities.m */,
+				05A1E1661AD52666002349AF /* UIColor+Utilities.h */,
+				05A1E1671AD52666002349AF /* UIColor+Utilities.m */,
+				05A1E1701AD57851002349AF /* UITableViewCell+Utilities.h */,
+				05A1E1711AD57851002349AF /* UITableViewCell+Utilities.m */,
+				05A1E1801AD67E2C002349AF /* UIView+Utilities.h */,
+				05A1E1811AD67E2C002349AF /* UIView+Utilities.m */,
+				05A1E1831AD68A08002349AF /* UIViewController+Utilities.h */,
+				05A1E1841AD68A09002349AF /* UIViewController+Utilities.m */,
+				05A1E1861AD68AE5002349AF /* UINavigationController+Utilities.h */,
+				05A1E1871AD68AE5002349AF /* UINavigationController+Utilities.m */,
+				05A1E1941AD6BD67002349AF /* UIAlertController+Cataracte.h */,
+				05A1E1951AD6BD67002349AF /* UIAlertController+Cataracte.m */,
+				0529A3F11AE662BC005AC31E /* NSString+Utilities.h */,
+				0529A3F21AE662BC005AC31E /* NSString+Utilities.m */,
+				05FEE9571AEC3CD0002FB174 /* AppDelegate+Cataracte.h */,
+				05FEE9581AEC3CD0002FB174 /* AppDelegate+Cataracte.m */,
+				05FEE95D1AEEAB8D002FB174 /* MBProgressHUD+Utilities.h */,
+				05FEE95E1AEEAB8D002FB174 /* MBProgressHUD+Utilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		05A1E1441AD3E1E4002349AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0529A3FB1AE7266C005AC31E /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		05A1E1451AD3E380002349AF /* StrikeAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1461AD3E41A002349AF /* StrikeAPIManager.h */,
+				05A1E1471AD3E41A002349AF /* StrikeAPIManager.m */,
+			);
+			name = StrikeAPIManager;
+			sourceTree = "<group>";
+		};
+		05A1E14B1AD43DAA002349AF /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E14C1AD43E8F002349AF /* StrikeTorrent.h */,
+				05A1E14D1AD43E8F002349AF /* StrikeTorrent.m */,
+				05A1E18D1AD6A6EA002349AF /* CATSearch.h */,
+				05A1E18E1AD6A6EA002349AF /* CATSearch.m */,
+				05341D5D1ADDEA4B0042842A /* QBitTorrent.h */,
+				05341D5E1ADDEA4B0042842A /* QBitTorrent.m */,
+				05F300E51AE05713004698FA /* QBitGlobalInfo.h */,
+				05F300E61AE05713004698FA /* QBitGlobalInfo.m */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		05A1E1521AD522D8002349AF /* Tops */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1531AD5233C002349AF /* StrikeTopsViewController.h */,
+				05A1E1541AD5233C002349AF /* StrikeTopsViewController.m */,
+			);
+			name = Tops;
+			sourceTree = "<group>";
+		};
+		05A1E1561AD52348002349AF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1901AD6B935002349AF /* Cells */,
+				05A1E1571AD5235B002349AF /* StrikeSearchesViewController.h */,
+				05A1E1581AD5235B002349AF /* StrikeSearchesViewController.m */,
+				05A1E17D1AD67ADD002349AF /* StrikeAddSearchViewController.h */,
+				05A1E17E1AD67ADD002349AF /* StrikeAddSearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		05A1E15A1AD52360002349AF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E15B1AD5236E002349AF /* SettingsViewController.h */,
+				05A1E15C1AD5236E002349AF /* SettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		05A1E15E1AD52454002349AF /* UserInfoManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E15F1AD5247B002349AF /* UserInfoManager.h */,
+				05A1E1601AD5247B002349AF /* UserInfoManager.m */,
+			);
+			name = UserInfoManager;
+			sourceTree = "<group>";
+		};
+		05A1E1621AD52588002349AF /* AppearanceManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1631AD5259F002349AF /* AppearanceManager.h */,
+				05A1E1641AD5259F002349AF /* AppearanceManager.m */,
+			);
+			name = AppearanceManager;
+			sourceTree = "<group>";
+		};
+		05A1E1691AD52D2A002349AF /* TorrentsList */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1731AD57892002349AF /* Cells */,
+				05A1E16A1AD52D47002349AF /* StrikeTorrentsListViewController.h */,
+				05A1E16B1AD52D47002349AF /* StrikeTorrentsListViewController.m */,
+			);
+			name = TorrentsList;
+			sourceTree = "<group>";
+		};
+		05A1E1731AD57892002349AF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1741AD578BE002349AF /* StrikeTorrentsListCell.h */,
+				05A1E1751AD578BE002349AF /* StrikeTorrentsListCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		05A1E1791AD674BA002349AF /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1971AD6DEE3002349AF /* Cells */,
+				05A1E17A1AD67536002349AF /* StrikeBookmarksViewController.h */,
+				05A1E17B1AD67536002349AF /* StrikeBookmarksViewController.m */,
+			);
+			name = Bookmarks;
+			sourceTree = "<group>";
+		};
+		05A1E1891AD6A2E4002349AF /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E18A1AD6A302002349AF /* DatabaseManager.h */,
+				05A1E18B1AD6A302002349AF /* DatabaseManager.m */,
+			);
+			name = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		05A1E1901AD6B935002349AF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1911AD6B978002349AF /* StrikeSearchCell.h */,
+				05A1E1921AD6B978002349AF /* StrikeSearchCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		05A1E1971AD6DEE3002349AF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				05A1E1981AD6DF0B002349AF /* StrikeBookmarksCell.h */,
+				05A1E1991AD6DF0B002349AF /* StrikeBookmarksCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		05FEE94D1AEAE053002FB174 /* TorrentsList */ = {
+			isa = PBXGroup;
+			children = (
+				05FEE9511AEAE10B002FB174 /* Cells */,
+				05FEE94E1AEAE0FE002FB174 /* QBitTorrentsListViewController.h */,
+				05FEE94F1AEAE0FE002FB174 /* QBitTorrentsListViewController.m */,
+			);
+			name = TorrentsList;
+			sourceTree = "<group>";
+		};
+		05FEE9511AEAE10B002FB174 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				05FEE9521AEAE24A002FB174 /* QBitTorrentsListCell.h */,
+				05FEE9531AEAE24A002FB174 /* QBitTorrentsListCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		05FEE9551AEAF9F3002FB174 /* TorrentDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TorrentDetails;
+			sourceTree = "<group>";
+		};
+		05FEE9561AEBAAFA002FB174 /* StaticTable */ = {
+			isa = PBXGroup;
+			children = (
+				0529A4021AE728DE005AC31E /* StaticTableViewController.h */,
+				0529A4031AE728DE005AC31E /* StaticTableViewController.m */,
+			);
+			name = StaticTable;
+			sourceTree = "<group>";
+		};
+		1A669D093ED47E536A0324DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E87210C127DBFBF56B3FEF6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8458C33B9BDB95232F6912ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC7EBB8518B9AA573F92B1B7 /* Pods.debug.xcconfig */,
+				7044EFF4D01588C1378FF67D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +572,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05A1E13B1AD335A9002349AF /* Build configuration list for PBXNativeTarget "Cataracte" */;
 			buildPhases = (
+				70E325166335A27238E01756 /* Check Pods Manifest.lock */,
 				05A1E1111AD335A9002349AF /* Sources */,
 				05A1E1121AD335A9002349AF /* Frameworks */,
 				05A1E1131AD335A9002349AF /* Resources */,
+				A600D425A33C51DE0CA857B8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,9 +591,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05A1E13E1AD335A9002349AF /* Build configuration list for PBXNativeTarget "CataracteTests" */;
 			buildPhases = (
+				6F1FD362FFEE785F017AB801 /* Check Pods Manifest.lock */,
 				05A1E12D1AD335A9002349AF /* Sources */,
 				05A1E12E1AD335A9002349AF /* Frameworks */,
 				05A1E12F1AD335A9002349AF /* Resources */,
+				24B72943FDF3E2DDBA43B1EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,7 +649,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A1E1271AD335A9002349AF /* Main.storyboard in Resources */,
+				05A1E1781AD5D613002349AF /* Strike.plist in Resources */,
 				05A1E12C1AD335A9002349AF /* LaunchScreen.xib in Resources */,
 				05A1E1291AD335A9002349AF /* Images.xcassets in Resources */,
 			);
@@ -219,15 +664,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24B72943FDF3E2DDBA43B1EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1FD362FFEE785F017AB801 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70E325166335A27238E01756 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A600D425A33C51DE0CA857B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05A1E1111AD335A9002349AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A1E1721AD57851002349AF /* UITableViewCell+Utilities.m in Sources */,
+				0529A4011AE72740005AC31E /* CellWithColorscheme.m in Sources */,
+				0529A4041AE728DE005AC31E /* StaticTableViewController.m in Sources */,
+				05F300E71AE05713004698FA /* QBitGlobalInfo.m in Sources */,
+				05A1E18C1AD6A302002349AF /* DatabaseManager.m in Sources */,
+				05FEE9501AEAE0FE002FB174 /* QBitTorrentsListViewController.m in Sources */,
 				05A1E11E1AD335A9002349AF /* AppDelegate.m in Sources */,
-				05A1E1211AD335A9002349AF /* MasterViewController.m in Sources */,
+				05A1E1881AD68AE5002349AF /* UINavigationController+Utilities.m in Sources */,
+				05A1E1681AD52666002349AF /* UIColor+Utilities.m in Sources */,
+				05A1E1961AD6BD67002349AF /* UIAlertController+Cataracte.m in Sources */,
+				05A1E1611AD5247B002349AF /* UserInfoManager.m in Sources */,
+				05A1E1511AD449F3002349AF /* NSDateFormatter+Utilities.m in Sources */,
+				05A1E19A1AD6DF0B002349AF /* StrikeBookmarksCell.m in Sources */,
+				05FEE9591AEC3CD0002FB174 /* AppDelegate+Cataracte.m in Sources */,
 				05A1E11B1AD335A9002349AF /* main.m in Sources */,
-				05A1E1241AD335A9002349AF /* DetailViewController.m in Sources */,
+				05341D5F1ADDEA4B0042842A /* QBitTorrent.m in Sources */,
+				05A1E1591AD5235B002349AF /* StrikeSearchesViewController.m in Sources */,
+				05A1E1821AD67E2C002349AF /* UIView+Utilities.m in Sources */,
+				05A1E1851AD68A09002349AF /* UIViewController+Utilities.m in Sources */,
+				05FEE95C1AECF47B002FB174 /* CellWithRightAlignedSubtitle.m in Sources */,
+				05A1E1551AD5233C002349AF /* StrikeTopsViewController.m in Sources */,
+				05A1E18F1AD6A6EA002349AF /* CATSearch.m in Sources */,
+				05A1E16F1AD57304002349AF /* UIViewController+CATViewControllerShowing.m in Sources */,
+				05A1E17F1AD67ADD002349AF /* StrikeAddSearchViewController.m in Sources */,
+				05A1E14E1AD43E8F002349AF /* StrikeTorrent.m in Sources */,
+				05A1E15D1AD5236E002349AF /* SettingsViewController.m in Sources */,
+				05A1E1761AD578BE002349AF /* StrikeTorrentsListCell.m in Sources */,
+				0529A3FA1AE6E271005AC31E /* QBitMenuViewController.m in Sources */,
+				05A1E1931AD6B978002349AF /* StrikeSearchCell.m in Sources */,
+				05FEE95F1AEEAB8D002FB174 /* MBProgressHUD+Utilities.m in Sources */,
+				05A1E17C1AD67536002349AF /* StrikeBookmarksViewController.m in Sources */,
+				05FEE9541AEAE24A002FB174 /* QBitTorrentsListCell.m in Sources */,
+				0529A3FE1AE72695005AC31E /* CellWithSwitch.m in Sources */,
+				05341D5A1ADC39C80042842A /* QBittorrentAPIManager.m in Sources */,
+				05A1E19D1AD6E666002349AF /* StrikeTorrentDetailsViewController.m in Sources */,
+				0529A3F31AE662BC005AC31E /* NSString+Utilities.m in Sources */,
+				057D06D11AE868E20021E8B4 /* CellWithTextInput.m in Sources */,
+				05A1E1651AD5259F002349AF /* AppearanceManager.m in Sources */,
+				05A1E16C1AD52D47002349AF /* StrikeTorrentsListViewController.m in Sources */,
+				05A1E1481AD3E41A002349AF /* StrikeAPIManager.m in Sources */,
+				057D06CE1AE852EA0021E8B4 /* QBitSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +780,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A1E14A1AD4319F002349AF /* StrikeAPIManagerTests.m in Sources */,
 				05A1E1381AD335A9002349AF /* CataracteTests.m in Sources */,
+				05341D5C1ADD46640042842A /* QbittorentAPIManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +797,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05A1E1251AD335A9002349AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05A1E1261AD335A9002349AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05A1E12A1AD335A9002349AF /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,9 +888,11 @@
 		};
 		05A1E13C1AD335A9002349AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7EBB8518B9AA573F92B1B7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cataracte/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,9 +900,11 @@
 		};
 		05A1E13D1AD335A9002349AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7044EFF4D01588C1378FF67D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cataracte/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -369,6 +912,7 @@
 		};
 		05A1E13F1AD335A9002349AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7EBB8518B9AA573F92B1B7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -388,6 +932,7 @@
 		};
 		05A1E1401AD335A9002349AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7044EFF4D01588C1378FF67D /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -420,6 +965,7 @@
 				05A1E13D1AD335A9002349AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05A1E13E1AD335A9002349AF /* Build configuration list for PBXNativeTarget "CataracteTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +974,7 @@
 				05A1E1401AD335A9002349AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

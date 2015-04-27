@@ -8,10 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSUInteger, AppDelegateTabIndex) {
+    AppDelegateTabIndexTops = 0,
+    AppDelegateTabIndexSearch,
+    AppDelegateTabIndexBookmarks,
+    AppDelegateTabIndexQBittorrent,
+    AppDelegateTabIndexSettings,
+};
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (void)recreateControllersAndShow:(AppDelegateTabIndex)tabIndex;
+- (void)recreateControllersAndShow:(AppDelegateTabIndex)tabIndex
+                         withBlock:(void (^)(UINavigationController *topNavigation))block;
 
 @end
 
